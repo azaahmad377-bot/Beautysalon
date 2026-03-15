@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Beautysalon/', // sesuaikan dengan nama repo GitHub kamu (format: /nama-repo/)
+  base: '/BeautySalon/', // match repo name: Kyle-glith/BeautySalon
   plugins: [react()],
   resolve: {
     alias: {
