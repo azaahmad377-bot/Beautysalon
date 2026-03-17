@@ -9,7 +9,7 @@ const stats = [
 
 const Tentang = () => {
   const aboutImage =
-    "./src/assets/Bg2.jpg";
+    "/assets/bg2.jpg";
 
   return (
     <Layout>

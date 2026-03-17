@@ -12,7 +12,7 @@ const Layanan = () => {
     () => [
       {
         image:
-          "./src/assets/Hair.jpg",
+          "/assets/Hair.jpg",
         category: "Hair Care",
         subtitle: "Rambut sehat, rapi, dan wangi sepanjang hari.",
         items: [
@@ -24,7 +24,7 @@ const Layanan = () => {
       },
       {
         image:
-          "./src/assets/Facial.jpg",
+          "/assets/Facial.jpg",
         category: "Facial Treatment",
         subtitle: "Kulit lebih cerah, bersih, dan glowing.",
         items: [
@@ -36,7 +36,7 @@ const Layanan = () => {
       },
       {
         image:
-          "./src/assets/Nail1.jpg",
+          "/assets/Nail1.jpg",
         category: "Nail Care",
         subtitle: "Kuku rapi, bersih, dan desain sesuai request kamu.",
         items: [
@@ -48,7 +48,7 @@ const Layanan = () => {
       },
       {
         image:
-          "./src/assets/Bulumata.jpg",
+          "/assets/Bulumata.jpg",
         category: "Eyelashes",
         subtitle: "Bulu mata terlihat lebih lentik dan tegas.",
         items: [
@@ -60,7 +60,7 @@ const Layanan = () => {
       },
       {
         image:
-          "./src/assets/Halis1.jpg",
+          "/assets/Halis1.jpg",
         category: "Eyebrow",
         subtitle: "Bentuk alis lebih tegas, simetris, dan natural.",
         items: [
@@ -72,7 +72,7 @@ const Layanan = () => {
       },
       {
         image:
-          "./src/assets/Pijat.jpg",
+          "/assets/Pijat.jpg",
         category: "Spa",
         subtitle: "Pijatan yang memukau.",
         items: [
@@ -83,7 +83,7 @@ const Layanan = () => {
         ],
       },
       {
-        image: "./src/assets/Makeup2.jpg",
+        image: "/assets/Makeup2.jpg",
         category: "Makeup",
         subtitle: "Perubahan wajah yang sempurna",
         items: [
@@ -153,8 +153,8 @@ const Layanan = () => {
                           onClick={() => setActiveCategory(s.category)}
                           className={`shrink-0 px-4 py-2 rounded-full border font-body text-sm transition-colors ${
                             activeCategory === s.category
-                              ? "bg-accent text-white border-yuma-100"
-                              : "bg-white/70 text-gray-800 border-black/10 hover:border-accent/40"
+                              ? "bg-white/70 text-sage-600 border-yuma-100"
+                              : "bg-white/70 text-sage-600 border-black/10 hover:border-yuma-200"
                           }`}
                         >
                           {s.category}

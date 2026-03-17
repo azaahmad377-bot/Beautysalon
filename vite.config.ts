@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/BeautySalon/', // match repo name: Kyle-glith/BeautySalon
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {

@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/BeautySalon">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/layanan" element={<Layanan />} />

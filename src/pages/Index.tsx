@@ -54,37 +54,37 @@ const Index = () => {
       title: "Hair Styling",
       desc: "Potong, styling, dan perawatan rambut profesional.",
       image:
-        "./src/assets/Rambut.jpg",
+        "/assets/Rambut.jpg",
     },
     {
       title: "Eyelash Extension",
       desc: "Eyelash Extension membuat bulu mata terlihat lebih natural.",
       image:
-        "./src/assets/Eyelasesh.jpg",
+        "/assets/Eyelasesh.jpg",
     },
     {
       title: "Nail Art",
       desc: "Manicure dan pedicure dengan desain cantik.",
       image:
-        "./src/assets/Nail.jpg",
+        "/assets/Nail.jpg",
     },
     {
       title: "Eyebrown",
       desc: "Eyebrown terlihat lebih natural.",
       image:
-        "./src/assets/Eyebrown.jpg",
+        "/assets/Eyebrown.jpg",
     },
     {
       title: "Makeup",
       desc: "Makeup terlihat lebih natural.",
       image:
-        "./src/assets/Makeup.jpg",
+        "/assets/Makeup.jpg",
     },
     {
       title: "Spa",
       desc: "Rasakan relaxation yang sangat nyaman.",
       image:
-        "./src/assets/Spa.jpg",
+        "/assets/Spa.jpg",
     },
   ];
 
@@ -94,8 +94,8 @@ const Index = () => {
       originalPrice: "Rp 200.000",
       price: "Rp 150.000",
       discount: "25% OFF",
-      desc: "Eyebrow lebih rapi dan natural, cocok untuk tampilan sehari-hari.",
-      image: "./src/assets/Eyebrown2.jpg",
+      desc: "Eyebrow lebih rapi and natural, cocok untuk tampilan sehari-hari.",
+      image: "/assets/Eyebrown2.jpg",
       label: "Promo Minggu Ini",
     },
     {
@@ -104,7 +104,7 @@ const Index = () => {
       price: "Rp 250.000",
       discount: "10% OFF",
       desc: "Makeup flawless dan tahan lama untuk tampilan natural.",
-      image: "./src/assets/Makeup1.jpg",
+      image: "/assets/Makeup1.jpg",
       label: "Terlaris",
     },
     {
@@ -113,7 +113,7 @@ const Index = () => {
       price: "Rp 200.000",
       discount: "30% OFF",
       desc: "Bulu mata lebih lentik dan natural tanpa extension tebal.",
-      image: "./src/assets/Eyelasesh1.jpg",
+      image: "/assets/Eyelasesh1.jpg",
       label: "Terbatas",
     },
     {
@@ -122,7 +122,7 @@ const Index = () => {
       price: "Rp 200.000",
       discount: "20% OFF",
       desc: "Perawatan kuku lengkap untuk tampilan tangan dan kaki yang cantik.",
-      image: "./src/assets/Manicure.jpg",
+      image: "/assets/Manicure.jpg",
       label: "Hemat",
     },
   ];
@@ -151,44 +151,44 @@ const Index = () => {
   const gallery = [
     {
       title: "Hair Styling & Color",
-      before: "./src/assets/hairbefore.jpg",
-      after: "./src/assets/hairafter.jpg",
+      before: "/assets/hairbefore.jpg",
+      after: "/assets/hairafter.jpg",
       description: "Transformasi warna rambut dengan teknik balayage profesional"
     },
     {
       title: "Facial Treatment",
-      before: "./src/assets/facialbefore.jpg",
-      after: "./src/assets/facialafter.jpg",
+      before: "/assets/facialbefore.jpg",
+      after: "/assets/facialafter.jpg",
       description: "Kulit lebih cerah dan glowing setelah facial treatment"
     },
     {
       title: "Nail Art & Manicure",
-      before: "./src/assets/nailbefore.jpg",
-      after: "./src/assets/nailafter.jpg",
+      before: "/assets/nailbefore.jpg",
+      after: "/assets/nailafter.jpg",
       description: "Nail art cantik dengan desain custom"
     },
     {
       title: "Eyelash Extension",
-      before: "./src/assets/eyelasesbefore.jpg",
-      after: "./src/assets/eyelasesafter.jpg",
+      before: "/assets/eyelasesbefore.jpg",
+      after: "/assets/eyelasesafter.jpg",
       description: "Bulu mata lebih lentik dan natural dengan extension"
     },
     {
       title: "Makeup Transformation",
-      before: "./src/assets/makeupbefore.jpg",
-      after: "./src/assets/makeupafter.jpg",
+      before: "/assets/makeupbefore.jpg",
+      after: "/assets/makeupafter.jpg",
       description: "Makeup flawless untuk acara spesial"
     },
     {
       title: "Eyebrow Styling",
-      before: "./src/assets/eyebrownbefore.jpg",
-      after: "./src/assets/eyebrownafter.jpg",
+      before: "/assets/eyebrownbefore.jpg",
+      after: "/assets/eyebrownafter.jpg",
       description: "Alis lebih rapi dan natural dengan teknik microblading"
     },
     {
       title: "Spa & Relaxation",
-      before: "./src/assets/spabefore.jpg",
-      after: "./src/assets/spaafter.jpg",
+      before: "/assets/spabefore.jpg",
+      after: "/assets/spaafter.jpg",
       description: "Relaksasi total dengan spa treatment premium"
     },
   ];
@@ -235,7 +235,7 @@ const Index = () => {
       {/* Content */}
       <div className="relative container mx-auto px-6 text-center pt-40">
         <h1 className="font-display text-6xl md:text-6xl font-bold mb-6 text-yuma-300 leading-tight">
-          Temukan Keindahan Sejati Anda
+          "Website Salon - Siap Pakai"
         </h1>
 
         <p className="font-body text-lg md:text-lg text-yuma-300 max-w-3xl mx-auto mb-16">
